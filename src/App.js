@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Sidebar from './components/Sidebar';
 import TopBar from './components/TopBar';
@@ -10,10 +9,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import AddMember from './components/AddMember';
-import Team from './components/Team';
 
 const items = [
   { name: 'team', label: 'Team', icon: 'fa fa-user', link: '/' },

@@ -24,7 +24,7 @@ class AddMember extends PureComponent {
             <div className="row col-md-12">
               <div className="col-md-5" />
               <div className="upload-image">
-                {this.state.file ? <img src={this.state.file} /> :
+                {this.state.file ? <img src={this.state.file} alt="no-img" /> :
                   <span className="fa fa-camera"></span>}
                 <input type="file" id="file" class="file" onChange={this.handleChange}
                   style={{ display: 'none' }} />
