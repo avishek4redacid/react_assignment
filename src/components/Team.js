@@ -1,6 +1,14 @@
 import React from 'react'
+import { useHistory } from "react-router-dom";
 
-function Sidebar({ users, handleClick }) {
+
+function Team({ users }) {
+  const history = useHistory();
+
+  function handleClick() {
+    history.push("/add-new-member");
+  }
+
   return (
     <div>
       <div className="row col-md-12 page-header">
@@ -25,4 +33,4 @@ function Sidebar({ users, handleClick }) {
   )
 }
 
-export default Sidebar
+export default Team
