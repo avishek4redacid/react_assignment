@@ -15,9 +15,9 @@ function Team({ users }) {
         <span className="">Team</span>
         <button onClick={() => handleClick()} className="add-button">Add New Member</button>
       </div>
-      <div className="row">
+      <div className="col-md-12 row">
         {users.map(({ name, role, email, image }) => (
-          <div className="user-card col-md-2">
+          <div className="user-card">
             <div className="user-circle">
               <img src={image} alt="" />
             </div>

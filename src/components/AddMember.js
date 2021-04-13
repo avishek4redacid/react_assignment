@@ -45,17 +45,17 @@ class AddMember extends PureComponent {
         <div className="row col-md-12 page-header">
           <span className="">Add Team Member</span>
         </div>
-        <div className="row col-md-9 user-form">
+        <div className="row user-form">
           <form>
             <div className="row col-md-12">
               <div className="col-md-5" />
-              <div className="upload-image">
+              <div className="upload-image col-md-2">
                 {this.state.file ? <img src={this.state.file} alt="no-img" /> :
                   <span className="fa fa-camera"></span>}
                 <input type="file" id="file" class="file" onChange={this.handleChange}
                   style={{ display: 'none' }} />
                 <label for="file"
-                  style={{ display: 'block', color: '#4379EE', cursor: 'pointer', paddingTop: '16px' }}>
+                  style={{ display: 'block', color: '#4379EE', cursor: 'pointer', paddingTop: '16px', textAlign: 'center', width: 'max-content' }}>
                   {!this.state.file ? 'Upload Photo *' : 'Edit Photo'}</label>
               </div>
               <div className="col-md-5" />

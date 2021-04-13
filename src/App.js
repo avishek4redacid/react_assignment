@@ -20,7 +20,7 @@ const items = [
   { name: 'dashboard', label: 'Dashboard', icon: 'fa fa-tachometer-alt', link: '/dashboard' },
   { name: 'products', label: 'Products', icon: 'fa fa-th-large', link: '/' },
   { name: 'favourites', label: 'Favourites', icon: 'fa fa-heart', link: '/' },
-  { name: 'inbox', label: 'Inbox', icon: 'fa fa-comments', link: '/' },
+  // { name: 'inbox', label: 'Inbox', icon: 'fa fa-comments', link: '/' },
   { name: 'inbox', label: 'Inbox', icon: 'fa fa-comments', link: '/add-new-member' },
 ]
 
