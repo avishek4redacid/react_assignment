@@ -1,8 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   background-color: #F5F6FA;
+}
+.MuiTypography-body1 {
+  font-family: 'Nunito Sans', sans-serif !important;
 }
 .sidebar {
   max-width: 240px;
